@@ -1,0 +1,17 @@
+### All Student
+GET http://localhost:5000/api/v1/student
+
+
+### Create a new Student
+POST http://localhost:5000/api/v1/student
+content-type: application/json
+
+{
+      "name": "bappa1",
+      "email": "bappa1@gmail.com",
+      "age": "21"
+
+}
+
+### All Student by email
+GET http://localhost:5000/api/v1/student/bappa1@gmail.com
